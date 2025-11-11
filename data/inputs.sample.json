@@ -1,0 +1,19 @@
+{
+  "searches": [
+    {
+      "name": "AI Jobs - International",
+      "url": "https://www.bayt.com/en/international/jobs/ai-jobs/",
+      "maxItems": 100
+    },
+    {
+      "name": "Software Engineer - UAE",
+      "url": "https://www.bayt.com/en/uae/jobs/software-engineer-jobs/",
+      "maxItems": 50
+    }
+  ],
+  "output": {
+    "format": "json",
+    "directory": "data",
+    "filename": "output_sample.json"
+  }
+}
