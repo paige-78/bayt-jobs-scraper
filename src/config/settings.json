@@ -1,0 +1,19 @@
+{
+  "http": {
+    "user_agent": "Mozilla/5.0 (compatible; BaytJobsScraper/1.0; +https://bitbash.dev)",
+    "timeout": 15,
+    "max_retries": 3,
+    "backoff_factor": 0.5,
+    "proxies": {}
+  },
+  "scraper": {
+    "default_max_items": 200,
+    "respect_robots_txt": false,
+    "delay_between_requests_seconds": 1.0
+  },
+  "export": {
+    "default_format": "json",
+    "default_output_dir": "data",
+    "default_output_filename": "output_sample.json"
+  }
+}
